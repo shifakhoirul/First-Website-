@@ -6,6 +6,44 @@
     <title>Page 4</title>
 </head>
 <body>
-    <h1>Page 4</h1>
+    <h1 style="text-align: center;">FORUM</h1>
+    <hr>
+    <h2>Student Registration Form</h2>
+        <label for="name"> Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="course">Password:</label><br>
+        <input type="password" id="course" name="course" required><br><br>
+
+        <label for="message">Date for Birthday:</label><br>
+        <input type="date" id="message" name="message" required><br><br>
+        <label for="class">Class:</label><br>
+        <select id="class" name="class" required>
+            <option value="">Select Class</option>
+            <option value="class1">Class X ICT</option>
+            <option value="class2">Class XI ICT</option>
+            <option value="class3">Class XII ICT</option>
+        </select><br><br>
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+        <label for="skills">Skills:</label><br>
+        <input type="checkbox" id="skill1" name="skills" value="HTML">
+        <label for="skill1">HTML</label><br>
+        <input type="checkbox" id="skill2" name="skills" value="CSS">
+        <label for="skill2">CSS</label><br>
+        <input type="checkbox" id="skill3" name="skills" value="JavaScript">
+        <label for="skill3">JavaScript</label><br><br>
+        <label for="about">About yourself:</label><br>
+        <textarea id="about" name="about" rows="4" cols="50" placeholder="Write something about yourself..."></textarea><br><br>
+        <input type="submit" value="Submit">
+</form>
 </body>
 </html>
